@@ -1,0 +1,142 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3284562555" file="/Users/Lorena/Documents/CATARACTUS/Simulation/ESUS/AscanEye.prj" location="/Users/Lorena/Documents/CATARACTUS/Simulation/ESUS" name="AscanEye" target="target.mlapps" target-name="Package App">
+    <param.appname>AscanEye</param.appname>
+    <param.authnamewatermark>Lorena Petrella</param.authnamewatermark>
+    <param.email>lorenapetrella@uc.pt</param.email>
+    <param.company>University of Coimbra</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Simulates ophthalmological applications of A-scan ultrasound</param.summary>
+    <param.description />
+    <param.screenshot>/Users/Lorena/Desktop/Captura de ecrã 2021-06-15, às 11.29.00.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>da0291ab-746e-46a5-9451-9190a8c6b41f</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/AscanUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/AscanEye.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/cart2grid.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/checkStability.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/db2neper.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/expandMatrix.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/fourierShift.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/gaussian.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/gaussianFilter.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/getColorMap.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/getDateString.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/getWin.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/kWaveGrid.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/kspaceFirstOrder2D.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/makeArc.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/makeCircle.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/makeLine.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/numDim.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/checkFieldNames.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/directionalResponse.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/enforceFields.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/getPML.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/getkWaveDefaults.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/gridDataFast2D.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/gridDataFast2D_tsearch.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/gridDataFast3D.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_adjustPlotScale.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_checkMemoryUsage.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_checkOptionalInputs.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_createAbsorptionVariables.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_createStorageVariables.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_dataCast.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_dataRecast.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_displaySimulationParams.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_expandGridMatrices.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_extractSensorData.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_initialiseFigureWindow.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_initialiseMovieParameters.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_inputChecking.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_plotLayout.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_reorderCartData.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_reorderCuboidCorners.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_saveIntensity.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_scaleSourceTerms.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/kspaceFirstOrder_setSoundSpeedRef.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/private/sinc.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/scaleFig.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/scaleSI.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/scaleTime.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/smooth.m</file>
+      <file>/Users/Lorena/Documents/MATLAB/k-wave-toolbox-version-1.2.1/k-Wave/toneBurst.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/Lorena/Documents/CATARACTUS/Simulation" name="ESUS" optional="false">/Users/Lorena/Documents/CATARACTUS/Simulation/ESUS</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2020a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.13.6</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
